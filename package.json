@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.58",
+    "ai": "^3.3.33",
+    "groq-sdk": "^0.7.0",
+    "next": "14.2.10",
+    "openai": "^4.59.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.10"
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.10",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.10"
+    "typescript": "^5"
   }
 }
